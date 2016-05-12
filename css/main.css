@@ -117,7 +117,7 @@ nav div h3{font-weight: 700; font-size: 22px;}
 	margin-bottom: 0px;
 }
 .contact{
-	min-height: 630px; 
+	min-height: 670px; 
 	position:relative; 
 	overflow: hidden; 
 	background-color: rgba(0,0,0,0.5); 
@@ -130,8 +130,11 @@ nav div h3{font-weight: 700; font-size: 22px;}
 	z-index: -100; 
 	margin:-15px;
 }
+.contact .row{
+	margin-top: 5px;
+}
 .contact h3{
-	padding: 8px;
+	margin-bottom: 18px;
 }
 .form-group{
 	padding: 15px;
@@ -139,11 +142,60 @@ nav div h3{font-weight: 700; font-size: 22px;}
 .contact-addres{
 	padding: 15px;
 }
-
-
+.contact-form h4{
+	margin: 15px;
+}
+.contact-form input{
+	background-color: #6E6E6E;
+	margin: 15px;
+	border-radius: 0%;
+	width: 550px;
+	border: #000;
+	opacity: 0.5;
+	padding: 22px 10px; 
+}
+.contact-form textarea{
+	background-color: #6E6E6E;
+	margin: 15px;
+	border-radius: 0%;
+	width: 550px;
+	border: #000;
+	opacity: 0.5;
+}
+.contact-form button{
+	margin: 15px;
+	background-color: #01DFD7;
+	border-radius: 0%;
+	padding: 10px 40px;
+}
+.contact-about{
+	padding-right: 10px;
+}
+.contact-about h4{
+	margin-top: 30px;
+}
+.contact-about p{
+	margin-top: 30px;
+}
+.footer h3{
+	margin-top: 35px;
+}
+.footer p{
+	margin-top: 35px;
+}
+.follow-us i{
+	color: #2E2E2E;
+	width: 20px;
+	margin-top: 35px;
+	margin-bottom: 50px;
+}
 .footer-laboratoria{
 	background-color: #2E2E2E;
 	color: #fff;
 	padding: 25px;
 }
+.footer-laboratoria a{
+	color: #fff;
+}
+
 
